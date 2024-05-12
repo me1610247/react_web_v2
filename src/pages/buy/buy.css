@@ -1,0 +1,67 @@
+/* Buy.css */
+
+/* Center the title */
+.text-center {
+    text-align: center;
+  }
+  
+  /* Style the container */
+  .contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  /* Style the section */
+  .section {
+    margin-top: 20px;
+  }
+  
+  /* Style the checklist card */
+  .checklist-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+    width: 350px;
+  }
+  
+  .checklist-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the card image */
+  .checklist-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* Style the card body */
+  .card-body {
+    text-align: center;
+  }
+  
+  /* Style the text */
+  .checklist-card p {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the button */
+  .checklist-card button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Blue color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checklist-card button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  

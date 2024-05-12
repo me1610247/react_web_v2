@@ -1,0 +1,66 @@
+/* profile.css */
+
+/* Center the title */
+.text-center {
+    text-align: center;
+  }
+  
+  /* Style the container */
+  .container-mox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  /* Style the section */
+  .section {
+    margin-top: 20px;
+  }
+  
+  /* Style the card */
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 450px;
+  }
+  
+  /* Style the labels */
+  .card label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style the inputs */
+  .card input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the readonly inputs */
+  .card input[readonly] {
+    background-color: #f0f0f0;
+  }
+  
+  /* Style the button */
+  .card button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Blue color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
